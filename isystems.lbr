@@ -19517,7 +19517,7 @@ PartNr.: APBA3010SURKCGKC-GX &lt;br /&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN65HVD" prefix="IC">
+<deviceset name="SN65HVD" prefix="U">
 <description>&lt;strong&gt;RS485 Transceivers&lt;/strong&gt;&lt;br /&gt;
 &lt;br/&gt;
 &lt;strong&gt;Variants&lt;/strong&gt;
