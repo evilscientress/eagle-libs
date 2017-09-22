@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="KLEMME_2-1">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-7.62" drill="0.2" diameter="0.6" shape="square"/>
+<pad name="1.2" x="0" y="7.62" drill="0.2" diameter="0.6" shape="square"/>
+<text x="0" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="KLEMME_2-2">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-7.62" drill="0.2" diameter="0.6" shape="square"/>
+<pad name="1.2" x="0" y="7.62" drill="0.2" diameter="0.6" shape="square"/>
+<pad name="2.1" x="5.08" y="-7.62" drill="0.2" diameter="0.6" shape="square"/>
+<pad name="2.2" x="5.08" y="7.62" drill="0.2" diameter="0.6" shape="square"/>
+<text x="0" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="KLEMME_1-2">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-3">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-4">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-5">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-6">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-7">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-8">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-9">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-10">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-11">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.1" x="25.4" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.2" x="25.4" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-12">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.1" x="25.4" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.2" x="25.4" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.1" x="27.94" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.2" x="27.94" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-13">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.1" x="25.4" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.2" x="25.4" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.1" x="27.94" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.2" x="27.94" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.1" x="30.48" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.2" x="30.48" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-14">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.1" x="25.4" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.2" x="25.4" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.1" x="27.94" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.2" x="27.94" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.1" x="30.48" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.2" x="30.48" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.1" x="33.02" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.2" x="33.02" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-15">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.1" x="25.4" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.2" x="25.4" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.1" x="27.94" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.2" x="27.94" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.1" x="30.48" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.2" x="30.48" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.1" x="33.02" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.2" x="33.02" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.1" x="35.56" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.2" x="35.56" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-16">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.1" x="25.4" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.2" x="25.4" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.1" x="27.94" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.2" x="27.94" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.1" x="30.48" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.2" x="30.48" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.1" x="33.02" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.2" x="33.02" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.1" x="35.56" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.2" x="35.56" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="16.1" x="38.1" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="16.2" x="38.1" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-17">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.1" x="25.4" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.2" x="25.4" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.1" x="27.94" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.2" x="27.94" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.1" x="30.48" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.2" x="30.48" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.1" x="33.02" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.2" x="33.02" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.1" x="35.56" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.2" x="35.56" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="16.1" x="38.1" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="16.2" x="38.1" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="17.1" x="40.64" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="17.2" x="40.64" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-18">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.1" x="25.4" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.2" x="25.4" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.1" x="27.94" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.2" x="27.94" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.1" x="30.48" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.2" x="30.48" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.1" x="33.02" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.2" x="33.02" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.1" x="35.56" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.2" x="35.56" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="16.1" x="38.1" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="16.2" x="38.1" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="17.1" x="40.64" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="17.2" x="40.64" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="18.1" x="43.18" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="18.2" x="43.18" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-19">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.1" x="25.4" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.2" x="25.4" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.1" x="27.94" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.2" x="27.94" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.1" x="30.48" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.2" x="30.48" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.1" x="33.02" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.2" x="33.02" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.1" x="35.56" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.2" x="35.56" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="16.1" x="38.1" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="16.2" x="38.1" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="17.1" x="40.64" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="17.2" x="40.64" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="18.1" x="43.18" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="18.2" x="43.18" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="19.1" x="45.72" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="19.2" x="45.72" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+<package name="KLEMME_1-20">
+<description>Dummy</description>
+<pad name="1.1" x="0" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="1.2" x="0" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.1" x="2.54" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="2.2" x="2.54" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.1" x="5.08" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="3.2" x="5.08" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.1" x="7.62" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="4.2" x="7.62" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.1" x="10.16" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="5.2" x="10.16" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.1" x="12.7" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="6.2" x="12.7" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.1" x="15.24" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="7.2" x="15.24" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.1" x="17.78" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="8.2" x="17.78" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.1" x="20.32" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="9.2" x="20.32" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.1" x="22.86" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="10.2" x="22.86" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.1" x="25.4" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="11.2" x="25.4" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.1" x="27.94" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="12.2" x="27.94" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.1" x="30.48" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="13.2" x="30.48" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.1" x="33.02" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="14.2" x="33.02" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.1" x="35.56" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="15.2" x="35.56" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="16.1" x="38.1" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="16.2" x="38.1" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="17.1" x="40.64" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="17.2" x="40.64" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="18.1" x="43.18" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="18.2" x="43.18" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="19.1" x="45.72" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="19.2" x="45.72" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+<pad name="20.1" x="48.26" y="-12.7" drill="0.5" diameter="1" shape="square"/>
+<pad name="20.2" x="48.26" y="-2.54" drill="0.5" diameter="1" shape="square"/>
+</package>
+</packages>
+<symbols>
+<symbol name="KLEMME_2-1">
+<wire x1="0" y1="5.08" x2="0" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.5216" x2="0" y2="-1.5216" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.556" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<circle x="0" y="-2.54" radius="1.0316" width="0.1524" layer="94"/>
+<circle x="0" y="2.54" radius="1.0316" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R180">&gt;PART</text>
+<text x="-2.54" y="0" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<pin name="1.1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1.2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="KLEMME_2-1-FUSED">
+<wire x1="0" y1="5.08" x2="0" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.5216" x2="0" y2="-1.5216" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.556" x2="0" y2="-6.35" width="0.1524" layer="94"/>
+<circle x="0" y="-2.54" radius="1.0316" width="0.1524" layer="94"/>
+<circle x="0" y="2.54" radius="1.0316" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R180">&gt;PART</text>
+<text x="-2.54" y="0" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<pin name="1.1" x="0" y="-20.32" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1.2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<wire x1="0" y1="-6.35" x2="1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="5.08" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="5.08" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-8.89" x2="5.08" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-8.89" x2="4.064" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-8.89" x2="4.064" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-13.97" x2="6.096" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="-13.97" x2="6.096" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="-8.89" x2="5.08" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="0" y1="-16.51" x2="0" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-5.334" x2="1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="3.048" y2="-7.366" width="0.1524" layer="94"/>
+<wire x1="0" y1="-16.51" x2="1.27" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-16.51" x2="5.08" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-15.494" x2="1.27" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-16.51" x2="3.048" y2="-17.526" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="KLEMME_2-1-FUSED-LED">
+<wire x1="0" y1="5.08" x2="0" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.5216" x2="0" y2="-1.5216" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.556" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<circle x="0" y="-2.54" radius="1.0316" width="0.1524" layer="94"/>
+<circle x="0" y="2.54" radius="1.0316" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R180">&gt;PART</text>
+<text x="-2.54" y="0" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<pin name="1.1" x="0" y="-20.32" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1.2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="-6.35" x2="1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="5.08" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="5.08" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-8.89" x2="5.08" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-8.89" x2="4.064" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-8.89" x2="4.064" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-13.97" x2="6.096" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="-13.97" x2="6.096" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="-8.89" x2="5.08" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="0" y1="-16.51" x2="0" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-5.334" x2="1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="3.048" y2="-7.366" width="0.1524" layer="94"/>
+<wire x1="0" y1="-16.51" x2="1.27" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-16.51" x2="5.08" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-15.494" x2="1.27" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-16.51" x2="3.048" y2="-17.526" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-9.144" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-9.144" x2="-5.08" y2="-10.922" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-10.922" x2="-6.096" y2="-10.922" width="0.1524" layer="94"/>
+<wire x1="-6.096" y1="-10.922" x2="-6.096" y2="-16.002" width="0.1524" layer="94"/>
+<wire x1="-6.096" y1="-16.002" x2="-5.08" y2="-16.002" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-16.002" x2="-4.064" y2="-16.002" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="-16.002" x2="-4.064" y2="-10.922" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="-10.922" x2="-5.08" y2="-10.922" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-16.002" x2="-5.08" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="0" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="-6.096" y1="-9.144" x2="-5.08" y2="-9.144" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-9.144" x2="-4.064" y2="-9.144" width="0.1524" layer="94"/>
+<wire x1="-6.096" y1="-7.112" x2="-4.064" y2="-7.112" width="0.1524" layer="94"/>
+<wire x1="-6.096" y1="-7.112" x2="-5.08" y2="-9.144" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-9.144" x2="-4.064" y2="-7.112" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="-7.62" x2="-2.794" y2="-8.128" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="-8.128" x2="-3.048" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="-8.128" x2="-3.302" y2="-8.128" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="-8.382" x2="-3.302" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="-8.89" x2="-3.556" y2="-8.382" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="-8.89" x2="-3.81" y2="-8.89" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="KLEMME_2-2">
+<wire x1="5.08" y1="5.08" x2="5.08" y2="3.5584" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.5584" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.5216" x2="0" y2="-1.5216" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.5584" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="1.5216" x2="5.08" y2="-1.5216" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-3.5584" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<circle x="0" y="-2.5272" radius="1.0056" width="0.1524" layer="94"/>
+<circle x="0" y="2.5528" radius="1.0056" width="0.1524" layer="94"/>
+<circle x="5.08" y="-2.5272" radius="1.0056" width="0.1524" layer="94"/>
+<circle x="5.08" y="2.5528" radius="1.0056" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R180">&gt;PART</text>
+<text x="-2.54" y="0" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<pin name="1.1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1.2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2.1" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2.2" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="KLEMME_1">
+<wire x1="0" y1="2.54" x2="0" y2="0.889" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.889" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="0.8054" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R180">&gt;PART</text>
+<text x="-2.54" y="0" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<pin name="1.1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1.2" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="KLEMME_1.2">
+<wire x1="0" y1="2.54" x2="0" y2="0.889" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.889" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="0.8054" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R180">&gt;PART</text>
+<pin name="2.1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2.2" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="KLEMME_2-1.2">
+<wire x1="0" y1="5.08" x2="0" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.5216" x2="0" y2="-1.5216" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.556" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<circle x="0" y="-2.54" radius="1.0316" width="0.1524" layer="94"/>
+<circle x="0" y="2.54" radius="1.0316" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R180">&gt;PART</text>
+<pin name="1.1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1.2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="KLEMME_2-1-FUSED.2">
+<wire x1="0" y1="5.08" x2="0" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.5216" x2="0" y2="-1.5216" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.556" x2="0" y2="-6.35" width="0.1524" layer="94"/>
+<circle x="0" y="-2.54" radius="1.0316" width="0.1524" layer="94"/>
+<circle x="0" y="2.54" radius="1.0316" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R180">&gt;PART</text>
+<pin name="1.1" x="0" y="-20.32" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1.2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<wire x1="0" y1="-6.35" x2="1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="5.08" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="5.08" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-8.89" x2="5.08" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-8.89" x2="4.064" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-8.89" x2="4.064" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-13.97" x2="6.096" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="-13.97" x2="6.096" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="-8.89" x2="5.08" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="0" y1="-16.51" x2="0" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-5.334" x2="1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="3.048" y2="-7.366" width="0.1524" layer="94"/>
+<wire x1="0" y1="-16.51" x2="1.27" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-16.51" x2="5.08" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-15.494" x2="1.27" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-16.51" x2="3.048" y2="-17.526" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="KLEMME_2-1-FUSED-LED.2">
+<wire x1="0" y1="5.08" x2="0" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.5216" x2="0" y2="-1.5216" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.556" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<circle x="0" y="-2.54" radius="1.0316" width="0.1524" layer="94"/>
+<circle x="0" y="2.54" radius="1.0316" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R180">&gt;PART</text>
+<pin name="1.1" x="0" y="-20.32" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1.2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0" y1="-6.35" x2="1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="5.08" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="5.08" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-8.89" x2="5.08" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-8.89" x2="4.064" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-8.89" x2="4.064" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-13.97" x2="6.096" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="-13.97" x2="6.096" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="-8.89" x2="5.08" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="0" y1="-16.51" x2="0" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-5.334" x2="1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="3.048" y2="-7.366" width="0.1524" layer="94"/>
+<wire x1="0" y1="-16.51" x2="1.27" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-16.51" x2="5.08" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-15.494" x2="1.27" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-16.51" x2="3.048" y2="-17.526" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-9.144" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-9.144" x2="-5.08" y2="-10.922" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-10.922" x2="-6.096" y2="-10.922" width="0.1524" layer="94"/>
+<wire x1="-6.096" y1="-10.922" x2="-6.096" y2="-16.002" width="0.1524" layer="94"/>
+<wire x1="-6.096" y1="-16.002" x2="-5.08" y2="-16.002" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-16.002" x2="-4.064" y2="-16.002" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="-16.002" x2="-4.064" y2="-10.922" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="-10.922" x2="-5.08" y2="-10.922" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-16.002" x2="-5.08" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="0" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="-6.096" y1="-9.144" x2="-5.08" y2="-9.144" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-9.144" x2="-4.064" y2="-9.144" width="0.1524" layer="94"/>
+<wire x1="-6.096" y1="-7.112" x2="-4.064" y2="-7.112" width="0.1524" layer="94"/>
+<wire x1="-6.096" y1="-7.112" x2="-5.08" y2="-9.144" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-9.144" x2="-4.064" y2="-7.112" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="-7.62" x2="-2.794" y2="-8.128" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="-8.128" x2="-3.048" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="-8.128" x2="-3.302" y2="-8.128" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="-8.382" x2="-3.302" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="-8.89" x2="-3.556" y2="-8.382" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="-8.89" x2="-3.81" y2="-8.89" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KLEMME_2-1" prefix="X" uservalue="yes">
+<description>Klemme 1 Pol.</description>
+<gates>
+<gate name="G$1" symbol="KLEMME_2-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KLEMME_2-1">
+<connects>
+<connect gate="G$1" pin="1.1" pad="1.1"/>
+<connect gate="G$1" pin="1.2" pad="1.2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KLEMME_2-1-FUSED" prefix="X" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="KLEMME_2-1-FUSED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KLEMME_2-1">
+<connects>
+<connect gate="G$1" pin="1.1" pad="1.1"/>
+<connect gate="G$1" pin="1.2" pad="1.2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KLEMME_2-1-FUSED-LED" prefix="X" uservalue="yes">
+<gates>
+<gate name="1" symbol="KLEMME_2-1-FUSED-LED" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="KLEMME_2-1">
+<connects>
+<connect gate="1" pin="1.1" pad="1.1"/>
+<connect gate="1" pin="1.2" pad="1.2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KLEMME_2-2" prefix="X" uservalue="yes">
+<description>Klemme 2 2</description>
+<gates>
+<gate name="1" symbol="KLEMME_2-1" x="-2.54" y="0"/>
+<gate name="2" symbol="KLEMME_2-1.2" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="KLEMME_2-2">
+<connects>
+<connect gate="1" pin="1.1" pad="1.1"/>
+<connect gate="1" pin="1.2" pad="1.2"/>
+<connect gate="2" pin="1.1" pad="2.1"/>
+<connect gate="2" pin="1.2" pad="2.2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KLEMME_1-2" prefix="X" uservalue="yes">
+<description>Klemme 2 Pol.</description>
+<gates>
+<gate name="1" symbol="KLEMME_1" x="0" y="0" swaplevel="1"/>
+<gate name="2" symbol="KLEMME_1.2" x="2.54" y="0" swaplevel="2"/>
+</gates>
+<devices>
+<device name="" package="KLEMME_1-2">
+<connects>
+<connect gate="1" pin="1.1" pad="1.1"/>
+<connect gate="1" pin="1.2" pad="1.2"/>
+<connect gate="2" pin="2.1" pad="2.1"/>
+<connect gate="2" pin="2.2" pad="2.2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KLEMME_2-2-FUSED" prefix="X" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="KLEMME_2-1-FUSED" x="-10.16" y="7.62"/>
+<gate name="G$2" symbol="KLEMME_2-1-FUSED.2" x="0" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="KLEMME_1-2">
+<connects>
+<connect gate="G$1" pin="1.1" pad="1.1"/>
+<connect gate="G$1" pin="1.2" pad="1.2"/>
+<connect gate="G$2" pin="1.1" pad="2.1"/>
+<connect gate="G$2" pin="1.2" pad="2.2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KLEMME_2-2-FUSED_PD" prefix="X" uservalue="yes">
+<gates>
+<gate name="1" symbol="KLEMME_2-1-FUSED" x="-10.16" y="10.16"/>
+<gate name="2" symbol="KLEMME_2-1.2" x="2.54" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="KLEMME_1-2">
+<connects>
+<connect gate="1" pin="1.1" pad="1.1"/>
+<connect gate="1" pin="1.2" pad="1.2"/>
+<connect gate="2" pin="1.1" pad="2.1"/>
+<connect gate="2" pin="1.2" pad="2.2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KLEMME_2-4-FUSED_PD" prefix="X" uservalue="yes">
+<gates>
+<gate name="1" symbol="KLEMME_2-1-FUSED" x="-17.78" y="10.16"/>
+<gate name="2" symbol="KLEMME_2-1.2" x="-2.54" y="10.16"/>
+<gate name="4" symbol="KLEMME_2-1.2" x="27.94" y="10.16"/>
+<gate name="3" symbol="KLEMME_2-1-FUSED.2" x="12.7" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="KLEMME_1-4">
+<connects>
+<connect gate="1" pin="1.1" pad="1.1"/>
+<connect gate="1" pin="1.2" pad="1.2"/>
+<connect gate="2" pin="1.1" pad="2.1"/>
+<connect gate="2" pin="1.2" pad="2.2"/>
+<connect gate="3" pin="1.1" pad="3.1"/>
+<connect gate="3" pin="1.2" pad="3.2"/>
+<connect gate="4" pin="1.1" pad="4.1"/>
+<connect gate="4" pin="1.2" pad="4.2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KLEMME_2-6-FUSED_PD" prefix="X" uservalue="yes">
+<gates>
+<gate name="1" symbol="KLEMME_2-1-FUSED" x="-25.4" y="10.16"/>
+<gate name="2" symbol="KLEMME_2-1.2" x="-10.16" y="10.16"/>
+<gate name="4" symbol="KLEMME_2-1.2" x="20.32" y="10.16"/>
+<gate name="6" symbol="KLEMME_2-1.2" x="50.8" y="10.16"/>
+<gate name="3" symbol="KLEMME_2-1-FUSED.2" x="5.08" y="10.16"/>
+<gate name="5" symbol="KLEMME_2-1-FUSED.2" x="35.56" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="KLEMME_1-6">
+<connects>
+<connect gate="1" pin="1.1" pad="1.1"/>
+<connect gate="1" pin="1.2" pad="1.2"/>
+<connect gate="2" pin="1.1" pad="2.1"/>
+<connect gate="2" pin="1.2" pad="2.2"/>
+<connect gate="3" pin="1.1" pad="3.1"/>
+<connect gate="3" pin="1.2" pad="3.2"/>
+<connect gate="4" pin="1.1" pad="4.1"/>
+<connect gate="4" pin="1.2" pad="4.2"/>
+<connect gate="5" pin="1.1" pad="5.1"/>
+<connect gate="5" pin="1.2" pad="5.2"/>
+<connect gate="6" pin="1.1" pad="6.1"/>
+<connect gate="6" pin="1.2" pad="6.2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KLEMME_2-20-FUSED_IO" prefix="X" uservalue="yes">
+<gates>
+<gate name="1" symbol="KLEMME_2-1-FUSED" x="-53.34" y="10.16"/>
+<gate name="2" symbol="KLEMME_2-1.2" x="-40.64" y="10.16"/>
+<gate name="3" symbol="KLEMME_2-1.2" x="-35.56" y="10.16"/>
+<gate name="4" symbol="KLEMME_2-1.2" x="-30.48" y="10.16"/>
+<gate name="5" symbol="KLEMME_2-1.2" x="-25.4" y="10.16"/>
+<gate name="6" symbol="KLEMME_2-1.2" x="-20.32" y="10.16"/>
+<gate name="7" symbol="KLEMME_2-1.2" x="-15.24" y="10.16"/>
+<gate name="8" symbol="KLEMME_2-1.2" x="-10.16" y="10.16"/>
+<gate name="9" symbol="KLEMME_2-1.2" x="-5.08" y="10.16"/>
+<gate name="10" symbol="KLEMME_2-1.2" x="0" y="10.16"/>
+<gate name="11" symbol="KLEMME_2-1.2" x="5.08" y="10.16"/>
+<gate name="12" symbol="KLEMME_2-1.2" x="10.16" y="10.16"/>
+<gate name="13" symbol="KLEMME_2-1.2" x="15.24" y="10.16"/>
+<gate name="14" symbol="KLEMME_2-1.2" x="20.32" y="10.16"/>
+<gate name="15" symbol="KLEMME_2-1.2" x="25.4" y="10.16"/>
+<gate name="16" symbol="KLEMME_2-1.2" x="30.48" y="10.16"/>
+<gate name="17" symbol="KLEMME_2-1.2" x="35.56" y="10.16"/>
+<gate name="18" symbol="KLEMME_2-1.2" x="40.64" y="10.16"/>
+<gate name="19" symbol="KLEMME_2-1.2" x="45.72" y="10.16"/>
+<gate name="20" symbol="KLEMME_2-1.2" x="50.8" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="KLEMME_1-20">
+<connects>
+<connect gate="1" pin="1.1" pad="1.1"/>
+<connect gate="1" pin="1.2" pad="1.2"/>
+<connect gate="10" pin="1.1" pad="10.1"/>
+<connect gate="10" pin="1.2" pad="10.2"/>
+<connect gate="11" pin="1.1" pad="11.1"/>
+<connect gate="11" pin="1.2" pad="11.2"/>
+<connect gate="12" pin="1.1" pad="12.1"/>
+<connect gate="12" pin="1.2" pad="12.2"/>
+<connect gate="13" pin="1.1" pad="13.1"/>
+<connect gate="13" pin="1.2" pad="13.2"/>
+<connect gate="14" pin="1.1" pad="14.1"/>
+<connect gate="14" pin="1.2" pad="14.2"/>
+<connect gate="15" pin="1.1" pad="15.1"/>
+<connect gate="15" pin="1.2" pad="15.2"/>
+<connect gate="16" pin="1.1" pad="16.1"/>
+<connect gate="16" pin="1.2" pad="16.2"/>
+<connect gate="17" pin="1.1" pad="17.1"/>
+<connect gate="17" pin="1.2" pad="17.2"/>
+<connect gate="18" pin="1.1" pad="18.1"/>
+<connect gate="18" pin="1.2" pad="18.2"/>
+<connect gate="19" pin="1.1" pad="19.1"/>
+<connect gate="19" pin="1.2" pad="19.2"/>
+<connect gate="2" pin="1.1" pad="2.1"/>
+<connect gate="2" pin="1.2" pad="2.2"/>
+<connect gate="20" pin="1.1" pad="20.1"/>
+<connect gate="20" pin="1.2" pad="20.2"/>
+<connect gate="3" pin="1.1" pad="3.1"/>
+<connect gate="3" pin="1.2" pad="3.2"/>
+<connect gate="4" pin="1.1" pad="4.1"/>
+<connect gate="4" pin="1.2" pad="4.2"/>
+<connect gate="5" pin="1.1" pad="5.1"/>
+<connect gate="5" pin="1.2" pad="5.2"/>
+<connect gate="6" pin="1.1" pad="6.1"/>
+<connect gate="6" pin="1.2" pad="6.2"/>
+<connect gate="7" pin="1.1" pad="7.1"/>
+<connect gate="7" pin="1.2" pad="7.2"/>
+<connect gate="8" pin="1.1" pad="8.1"/>
+<connect gate="8" pin="1.2" pad="8.2"/>
+<connect gate="9" pin="1.1" pad="9.1"/>
+<connect gate="9" pin="1.2" pad="9.2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
