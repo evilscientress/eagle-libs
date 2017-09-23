@@ -1106,6 +1106,109 @@ Link</text>
 <wire x1="5.08" y1="21.59" x2="5.08" y2="8.89" width="0.0508" layer="94"/>
 <text x="-2.54" y="7.62" size="1.016" layer="94" rot="R180" align="bottom-center">1-Wire</text>
 </symbol>
+<symbol name="LOXONE_NANOIOAIR">
+<wire x1="-22.86" y1="-22.86" x2="22.86" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-2.921" y1="-22.098" x2="-2.159" y2="-21.082" width="0.1016" layer="94"/>
+<wire x1="-5.08" y1="-21.59" x2="-5.08" y2="-8.89" width="0.0508" layer="94"/>
+<wire x1="-5.08" y1="-8.89" x2="20.32" y2="-8.89" width="0.0508" layer="94"/>
+<wire x1="-0.381" y1="-22.098" x2="0.381" y2="-21.082" width="0.1016" layer="94"/>
+<wire x1="2.159" y1="-22.098" x2="2.921" y2="-21.082" width="0.1016" layer="94"/>
+<wire x1="4.699" y1="-22.098" x2="5.461" y2="-21.082" width="0.1016" layer="94"/>
+<wire x1="20.32" y1="-8.89" x2="20.32" y2="-21.59" width="0.0508" layer="94"/>
+<circle x="-2.54" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<circle x="0" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<circle x="2.54" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<circle x="5.08" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<text x="7.62" y="-7.62" size="1.016" layer="94" align="bottom-center">Relay Outputs 5A max</text>
+<text x="-3.81" y="-21.59" size="1.016" layer="96" rot="R90">&gt;FUNKTION_Q1</text>
+<text x="8.89" y="-21.59" size="1.016" layer="96" rot="R90">&gt;FUNKTION_Q2</text>
+<pin name="Q1.L2" x="0" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="Q1.L1" x="-2.54" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="Q1.N1" x="2.54" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="Q1.N2" x="5.08" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="9.779" y1="-22.098" x2="10.541" y2="-21.082" width="0.1016" layer="94"/>
+<wire x1="12.319" y1="-22.098" x2="13.081" y2="-21.082" width="0.1016" layer="94"/>
+<circle x="10.16" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<circle x="12.7" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="Q2.L1" x="10.16" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="Q2.L2" x="12.7" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="14.859" y1="-22.098" x2="15.621" y2="-21.082" width="0.1016" layer="94"/>
+<wire x1="17.399" y1="-22.098" x2="18.161" y2="-21.082" width="0.1016" layer="94"/>
+<circle x="15.24" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<circle x="17.78" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="Q2.N1" x="15.24" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="Q2.N2" x="17.78" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="-13.081" y1="-22.098" x2="-12.319" y2="-21.082" width="0.1016" layer="94"/>
+<wire x1="-10.541" y1="-22.098" x2="-9.779" y2="-21.082" width="0.1016" layer="94"/>
+<circle x="-12.7" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<circle x="-10.16" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="N.2" x="-10.16" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="N.1" x="-12.7" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="-7.62" y1="-21.59" x2="-7.62" y2="-8.89" width="0.0508" layer="94"/>
+<wire x1="-20.32" y1="-21.59" x2="-20.32" y2="-8.89" width="0.0508" layer="94"/>
+<wire x1="-20.32" y1="-8.89" x2="-7.62" y2="-8.89" width="0.0508" layer="94"/>
+<wire x1="-18.161" y1="-22.098" x2="-17.399" y2="-21.082" width="0.1016" layer="94"/>
+<wire x1="-15.621" y1="-22.098" x2="-14.859" y2="-21.082" width="0.1016" layer="94"/>
+<circle x="-17.78" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<circle x="-15.24" y="-21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="L.2" x="-15.24" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="L.1" x="-17.78" y="-25.4" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="-13.97" y="-7.62" size="1.016" layer="94" align="bottom-center">Power</text>
+<text x="-15.24" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">L</text>
+<text x="-17.78" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">L</text>
+<text x="-12.7" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">N</text>
+<text x="-10.16" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">N</text>
+<wire x1="-22.86" y1="22.86" x2="22.86" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-22.86" x2="-22.86" y2="22.86" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-22.86" x2="22.86" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-12.319" y1="22.098" x2="-13.081" y2="21.082" width="0.1016" layer="94"/>
+<wire x1="18.161" y1="22.098" x2="17.399" y2="21.082" width="0.1016" layer="94"/>
+<circle x="-12.7" y="21.59" radius="0.635" width="0.1016" layer="94"/>
+<circle x="17.78" y="21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="24V.3" x="17.78" y="25.4" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="I1" x="-12.7" y="25.4" visible="pin" length="short" direction="pas" rot="R270"/>
+<wire x1="-20.32" y1="21.59" x2="-20.32" y2="8.89" width="0.0508" layer="94"/>
+<wire x1="20.32" y1="21.59" x2="20.32" y2="8.89" width="0.0508" layer="94"/>
+<wire x1="20.32" y1="8.89" x2="-20.32" y2="8.89" width="0.0508" layer="94"/>
+<text x="0" y="7.62" size="1.016" layer="94" rot="R180" align="bottom-center">Digital Inputs</text>
+<wire x1="-7.239" y1="22.098" x2="-8.001" y2="21.082" width="0.1016" layer="94"/>
+<circle x="-7.62" y="21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="I2" x="-7.62" y="25.4" visible="pin" length="short" direction="pas" rot="R270"/>
+<wire x1="-2.159" y1="22.098" x2="-2.921" y2="21.082" width="0.1016" layer="94"/>
+<circle x="-2.54" y="21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="I3" x="-2.54" y="25.4" visible="pin" length="short" direction="pas" rot="R270"/>
+<wire x1="2.921" y1="22.098" x2="2.159" y2="21.082" width="0.1016" layer="94"/>
+<circle x="2.54" y="21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="I4" x="2.54" y="25.4" visible="pin" length="short" direction="pas" rot="R270"/>
+<wire x1="8.001" y1="22.098" x2="7.239" y2="21.082" width="0.1016" layer="94"/>
+<circle x="7.62" y="21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="I5" x="7.62" y="25.4" visible="pin" length="short" direction="pas" rot="R270"/>
+<wire x1="13.081" y1="22.098" x2="12.319" y2="21.082" width="0.1016" layer="94"/>
+<circle x="12.7" y="21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="I6" x="12.7" y="25.4" visible="pin" length="short" direction="pas" rot="R270"/>
+<text x="-13.97" y="21.59" size="1.016" layer="96" rot="R270" align="top-left">&gt;FUNKTION_I1</text>
+<text x="-8.89" y="21.59" size="1.016" layer="96" rot="R270" align="top-left">&gt;FUNKTION_I2</text>
+<text x="-3.81" y="21.59" size="1.016" layer="96" rot="R270" align="top-left">&gt;FUNKTION_I3</text>
+<text x="1.27" y="21.59" size="1.016" layer="96" rot="R270" align="top-left">&gt;FUNKTION_I4</text>
+<text x="6.35" y="21.59" size="1.016" layer="96" rot="R270" align="top-left">&gt;FUNKTION_I5</text>
+<text x="11.43" y="21.59" size="1.016" layer="96" rot="R270" align="top-left">&gt;FUNKTION_I6</text>
+<text x="17.78" y="20.574" size="1.524" layer="95" rot="R270" align="center-left">24V</text>
+<wire x1="-17.399" y1="22.098" x2="-18.161" y2="21.082" width="0.1016" layer="94"/>
+<circle x="-17.78" y="21.59" radius="0.635" width="0.1016" layer="94"/>
+<pin name="GND.3" x="-17.78" y="25.4" visible="off" length="short" direction="pas" rot="R270"/>
+<text x="-17.78" y="20.574" size="1.524" layer="95" rot="R270" align="center-left">GND</text>
+<text x="-17.78" y="2.54" size="2.54" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-1.27" size="2.54" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">Q1.L</text>
+<text x="0" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">Q1.L</text>
+<text x="2.54" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">Q1.N</text>
+<text x="10.16" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">Q2.L</text>
+<text x="12.7" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">Q2.L</text>
+<text x="15.24" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">Q2.N</text>
+<text x="17.78" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">Q2.N</text>
+<text x="5.08" y="-20.574" size="1.524" layer="95" rot="R90" align="center-left">Q1.N</text>
+<text x="-13.97" y="-17.78" size="1.778" layer="97" ratio="10" align="bottom-center">230V</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LOXONE_MINISERVER" prefix="SPS">
@@ -1349,6 +1452,7 @@ Link</text>
 </devices>
 </deviceset>
 <deviceset name="LOXONE_1WIRE" prefix="E">
+<description>&lt;b&gt;Loxone 1-Wire Extension&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="LOXONE_1WIRE" x="0" y="2.54"/>
 </gates>
@@ -1370,6 +1474,7 @@ Link</text>
 </devices>
 </deviceset>
 <deviceset name="LOXONE_AIRBASE" prefix="E">
+<description>&lt;b&gt;Loxone Airbase Extension&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="LOXONE_AIRBASE" x="0" y="0"/>
 </gates>
@@ -1388,6 +1493,7 @@ Link</text>
 </devices>
 </deviceset>
 <deviceset name="LOXONE_MULTIEXTENSION" prefix="SPS">
+<description>&lt;b&gt;Loxone Multiextension Air&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="LOXONE_MULTIEXTENSION" x="-2.54" y="0"/>
 </gates>
@@ -1436,6 +1542,50 @@ Link</text>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LOXONE_NANOIOAIR" prefix="E">
+<description>&lt;b&gt;Loxone Nano IO Air&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="LOXONE_NANOIOAIR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LOXONE_EXTENSION_DUMMY">
+<connects>
+<connect gate="G$1" pin="24V.3" pad="P$1"/>
+<connect gate="G$1" pin="GND.3" pad="P$2"/>
+<connect gate="G$1" pin="I1" pad="P$3"/>
+<connect gate="G$1" pin="I2" pad="P$4"/>
+<connect gate="G$1" pin="I3" pad="P$5"/>
+<connect gate="G$1" pin="I4" pad="P$6"/>
+<connect gate="G$1" pin="I5" pad="P$7"/>
+<connect gate="G$1" pin="I6" pad="P$8"/>
+<connect gate="G$1" pin="L.1" pad="P$9"/>
+<connect gate="G$1" pin="L.2" pad="P$10"/>
+<connect gate="G$1" pin="N.1" pad="P$11"/>
+<connect gate="G$1" pin="N.2" pad="P$12"/>
+<connect gate="G$1" pin="Q1.L1" pad="P$13"/>
+<connect gate="G$1" pin="Q1.L2" pad="P$14"/>
+<connect gate="G$1" pin="Q1.N1" pad="P$15"/>
+<connect gate="G$1" pin="Q1.N2" pad="P$16"/>
+<connect gate="G$1" pin="Q2.L1" pad="P$17"/>
+<connect gate="G$1" pin="Q2.L2" pad="P$18"/>
+<connect gate="G$1" pin="Q2.N1" pad="P$19"/>
+<connect gate="G$1" pin="Q2.N2" pad="P$20"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FUNKTION_I1" value="" constant="no"/>
+<attribute name="FUNKTION_I2" value="" constant="no"/>
+<attribute name="FUNKTION_I3" value="" constant="no"/>
+<attribute name="FUNKTION_I4" value="" constant="no"/>
+<attribute name="FUNKTION_I5" value="" constant="no"/>
+<attribute name="FUNKTION_I6" value="" constant="no"/>
+<attribute name="FUNKTION_Q1" value="" constant="no"/>
+<attribute name="FUNKTION_Q2" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
