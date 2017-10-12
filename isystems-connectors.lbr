@@ -235,6 +235,177 @@ fork me on github: https://github.com/masterbase/eagle-libs</description>
 <text x="-3.2225" y="4.8735" size="0.8128" layer="25" ratio="18">&gt;Name</text>
 <text x="-3.2225" y="3.921" size="0.4064" layer="27" ratio="10">&gt;Value</text>
 </package>
+<package name="JSTXH2_SMT">
+<description>&lt;b&gt;WARNING:&lt;/b&gt; This package variant is only available by 3rd party supplieres not by JST</description>
+<wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="51"/>
+<wire x1="5" y1="6" x2="5" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-5" y1="0.5" x2="-5" y2="6" width="0.2032" layer="51"/>
+<wire x1="3.9" y1="-1.7" x2="-3.9" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-3.9" y1="-1.7" x2="-3.9" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-3.9" y1="0.5" x2="-5" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="5" y1="0.5" x2="3.9" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="3.9" y1="0.5" x2="3.9" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-2.75" y1="6.5" x2="2.75" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="5.5" y1="2" x2="5.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="5.5" y1="0" x2="4.4" y2="0" width="0.2032" layer="21"/>
+<wire x1="4.4" y1="0" x2="4.4" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="4.4" y1="-2.2" x2="2.4" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-2.2" x2="-4.4" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="-2.2" x2="-4.4" y2="0" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="0" x2="-5.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="-5.5" y1="0" x2="-5.5" y2="2" width="0.2032" layer="21"/>
+<smd name="1" x="-1.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="2" x="1.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="NC1" x="-3.55" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="NC2" x="3.55" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<text x="-1.9725" y="4.8735" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-1.9725" y="3.921" size="0.4064" layer="27" ratio="10">&gt;Value</text>
+</package>
+<package name="JSTXH4_SMT">
+<wire x1="-7.5" y1="6" x2="7.5" y2="6" width="0.2032" layer="51"/>
+<wire x1="7.5" y1="6" x2="7.5" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-7.5" y1="0.5" x2="-7.5" y2="6" width="0.2032" layer="51"/>
+<wire x1="6.4" y1="-1.7" x2="-6.4" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-6.4" y1="-1.7" x2="-6.4" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-6.4" y1="0.5" x2="-7.5" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="7.5" y1="0.5" x2="6.4" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="6.4" y1="0.5" x2="6.4" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-5.25" y1="6.5" x2="5.25" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="8" y1="2" x2="8" y2="0" width="0.2032" layer="21"/>
+<wire x1="8" y1="0" x2="6.9" y2="0" width="0.2032" layer="21"/>
+<wire x1="6.9" y1="0" x2="6.9" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="6.9" y1="-2.2" x2="4.9" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="-2.2" x2="-6.9" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-6.9" y1="-2.2" x2="-6.9" y2="0" width="0.2032" layer="21"/>
+<wire x1="-6.9" y1="0" x2="-8" y2="0" width="0.2032" layer="21"/>
+<wire x1="-8" y1="0" x2="-8" y2="2" width="0.2032" layer="21"/>
+<smd name="1" x="-3.75" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="2" x="-1.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="NC1" x="-6.05" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="NC2" x="6.05" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="3" x="1.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<text x="-4.4725" y="4.8735" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-4.4725" y="3.921" size="0.4064" layer="27" ratio="10">&gt;Value</text>
+<smd name="4" x="3.75" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+</package>
+<package name="JSTXH5_SMT">
+<wire x1="-8.75" y1="6" x2="8.75" y2="6" width="0.2032" layer="51"/>
+<wire x1="8.75" y1="6" x2="8.75" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-8.75" y1="0.5" x2="-8.75" y2="6" width="0.2032" layer="51"/>
+<wire x1="7.65" y1="-1.7" x2="-7.65" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-7.65" y1="-1.7" x2="-7.65" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-7.65" y1="0.5" x2="-8.75" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="8.75" y1="0.5" x2="7.65" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="7.65" y1="0.5" x2="7.65" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="9.25" y1="2" x2="9.25" y2="0" width="0.2032" layer="21"/>
+<wire x1="9.25" y1="0" x2="8.15" y2="0" width="0.2032" layer="21"/>
+<wire x1="8.15" y1="0" x2="8.15" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="8.15" y1="-2.2" x2="6.15" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-6.15" y1="-2.2" x2="-8.15" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-8.15" y1="-2.2" x2="-8.15" y2="0" width="0.2032" layer="21"/>
+<wire x1="-8.15" y1="0" x2="-9.25" y2="0" width="0.2032" layer="21"/>
+<wire x1="-9.25" y1="0" x2="-9.25" y2="2" width="0.2032" layer="21"/>
+<smd name="1" x="-5" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="2" x="-2.5" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="NC1" x="-7.3" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="NC2" x="7.3" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<text x="-5.7225" y="4.8735" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-5.7225" y="3.921" size="0.4064" layer="27" ratio="10">&gt;Value</text>
+<smd name="4" x="2.5" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="5" x="5" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+</package>
+<package name="JSTXH6_SMT">
+<wire x1="-10" y1="6" x2="10" y2="6" width="0.2032" layer="51"/>
+<wire x1="10" y1="6" x2="10" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-10" y1="0.5" x2="-10" y2="6" width="0.2032" layer="51"/>
+<wire x1="8.9" y1="-1.7" x2="-8.9" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-8.9" y1="-1.7" x2="-8.9" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-8.9" y1="0.5" x2="-10" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="10" y1="0.5" x2="8.9" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="8.9" y1="0.5" x2="8.9" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-7.75" y1="6.5" x2="7.75" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="10.5" y1="2" x2="10.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="10.5" y1="0" x2="9.4" y2="0" width="0.2032" layer="21"/>
+<wire x1="9.4" y1="0" x2="9.4" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="9.4" y1="-2.2" x2="7.4" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-7.4" y1="-2.2" x2="-9.4" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-9.4" y1="-2.2" x2="-9.4" y2="0" width="0.2032" layer="21"/>
+<wire x1="-9.4" y1="0" x2="-10.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="-10.5" y1="0" x2="-10.5" y2="2" width="0.2032" layer="21"/>
+<smd name="1" x="-6.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="2" x="-3.75" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="NC1" x="-8.55" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="NC2" x="8.55" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="3" x="-1.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<text x="-6.9725" y="4.8735" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-6.9725" y="3.921" size="0.4064" layer="27" ratio="10">&gt;Value</text>
+<smd name="4" x="1.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="5" x="3.75" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="6" x="6.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+</package>
+<package name="JSTXH7_SMT">
+<wire x1="-11.25" y1="6" x2="11.25" y2="6" width="0.2032" layer="51"/>
+<wire x1="11.25" y1="6" x2="11.25" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-11.25" y1="0.5" x2="-11.25" y2="6" width="0.2032" layer="51"/>
+<wire x1="10.15" y1="-1.7" x2="-10.15" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-10.15" y1="-1.7" x2="-10.15" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-10.15" y1="0.5" x2="-11.25" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="11.25" y1="0.5" x2="10.15" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="10.15" y1="0.5" x2="10.15" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-9" y1="6.5" x2="9" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="11.75" y1="2" x2="11.75" y2="0" width="0.2032" layer="21"/>
+<wire x1="11.75" y1="0" x2="10.65" y2="0" width="0.2032" layer="21"/>
+<wire x1="10.65" y1="0" x2="10.65" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="10.65" y1="-2.2" x2="8.65" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-8.65" y1="-2.2" x2="-10.65" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-10.65" y1="-2.2" x2="-10.65" y2="0" width="0.2032" layer="21"/>
+<wire x1="-10.65" y1="0" x2="-11.75" y2="0" width="0.2032" layer="21"/>
+<wire x1="-11.75" y1="0" x2="-11.75" y2="2" width="0.2032" layer="21"/>
+<smd name="1" x="-7.5" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="2" x="-5" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="NC1" x="-9.8" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="NC2" x="9.8" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="3" x="-2.5" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<text x="-8.2225" y="4.8735" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-8.2225" y="3.921" size="0.4064" layer="27" ratio="10">&gt;Value</text>
+<smd name="4" x="0" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="5" x="2.5" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="6" x="5" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="7" x="7.5" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+</package>
+<package name="JSTXH8_SMT">
+<wire x1="-12.5" y1="6" x2="12.5" y2="6" width="0.2032" layer="51"/>
+<wire x1="12.5" y1="6" x2="12.5" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-12.5" y1="0.5" x2="-12.5" y2="6" width="0.2032" layer="51"/>
+<wire x1="11.4" y1="-1.7" x2="-11.4" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-11.4" y1="-1.7" x2="-11.4" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="-11.4" y1="0.5" x2="-12.5" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="12.5" y1="0.5" x2="11.4" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="11.4" y1="0.5" x2="11.4" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="-10.25" y1="6.5" x2="10.25" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="13" y1="2" x2="13" y2="0" width="0.2032" layer="21"/>
+<wire x1="13" y1="0" x2="11.9" y2="0" width="0.2032" layer="21"/>
+<wire x1="11.9" y1="0" x2="11.9" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="11.9" y1="-2.2" x2="9.9" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-9.9" y1="-2.2" x2="-11.9" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-11.9" y1="-2.2" x2="-11.9" y2="0" width="0.2032" layer="21"/>
+<wire x1="-11.9" y1="0" x2="-13" y2="0" width="0.2032" layer="21"/>
+<wire x1="-13" y1="0" x2="-13" y2="2" width="0.2032" layer="21"/>
+<smd name="1" x="-8.75" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="2" x="-6.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="NC1" x="-11.05" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="NC2" x="11.05" y="4.1" dx="3.9" dy="1.8" layer="1" rot="R90"/>
+<smd name="3" x="-3.75" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<text x="-9.4725" y="4.8735" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-9.4725" y="3.921" size="0.4064" layer="27" ratio="10">&gt;Value</text>
+<smd name="4" x="-1.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="5" x="1.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="6" x="3.75" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="7" x="6.25" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+<smd name="8" x="8.75" y="-2.7" dx="1.3" dy="4.5" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="U.FL">
@@ -256,6 +427,11 @@ fork me on github: https://github.com/masterbase/eagle-libs</description>
 <pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="CONX1">
+<pin name="P" x="-2.54" y="0" visible="off" length="short" swaplevel="1"/>
+<text x="1.524" y="0" size="1" layer="95" align="center-left">&gt;NAME</text>
+<circle x="0.508" y="0" radius="0.567959375" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -281,16 +457,18 @@ Molex 73412-011*</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JST_3PIN" prefix="CN" uservalue="yes">
+<deviceset name="JST_3PIN" prefix="X" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="PINHD3" x="0" y="0"/>
+<gate name=".1" symbol="CONX1" x="2.54" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name=".2" symbol="CONX1" x="2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name=".3" symbol="CONX1" x="2.54" y="-2.54" addlevel="always" swaplevel="1"/>
 </gates>
 <devices>
 <device name="_PH_SMT" package="JSTPH3_SMT">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate=".1" pin="P" pad="1"/>
+<connect gate=".2" pin="P" pad="2"/>
+<connect gate=".3" pin="P" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -298,9 +476,152 @@ Molex 73412-011*</description>
 </device>
 <device name="_XH_SMT" package="JSTXH3_SMT">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate=".1" pin="P" pad="1"/>
+<connect gate=".2" pin="P" pad="2"/>
+<connect gate=".3" pin="P" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_2PIN" prefix="X">
+<description>&lt;b&gt;NOTE:&lt;/b&gt; The XH 2Pin SMT variant is not available from JST only from 3rd party suppliers</description>
+<gates>
+<gate name=".1" symbol="CONX1" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name=".2" symbol="CONX1" x="0" y="0" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="_XH_SMT" package="JSTXH2_SMT">
+<connects>
+<connect gate=".1" pin="P" pad="1"/>
+<connect gate=".2" pin="P" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_4PIN" prefix="X">
+<gates>
+<gate name=".1" symbol="CONX1" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name=".2" symbol="CONX1" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name=".3" symbol="CONX1" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name=".4" symbol="CONX1" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="_XH_SMT" package="JSTXH4_SMT">
+<connects>
+<connect gate=".1" pin="P" pad="1"/>
+<connect gate=".2" pin="P" pad="2"/>
+<connect gate=".3" pin="P" pad="3"/>
+<connect gate=".4" pin="P" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_5PIN" prefix="X">
+<gates>
+<gate name=".1" symbol="CONX1" x="2.54" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name=".2" symbol="CONX1" x="2.54" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name=".3" symbol="CONX1" x="2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name=".4" symbol="CONX1" x="2.54" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name=".5" symbol="CONX1" x="2.54" y="-5.08" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="_XH_SMT" package="JSTXH5_SMT">
+<connects>
+<connect gate=".1" pin="P" pad="1"/>
+<connect gate=".2" pin="P" pad="2"/>
+<connect gate=".3" pin="P" pad="3"/>
+<connect gate=".4" pin="P" pad="4"/>
+<connect gate=".5" pin="P" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_6PIN" prefix="X">
+<gates>
+<gate name=".1" symbol="CONX1" x="2.54" y="7.62" addlevel="always" swaplevel="1"/>
+<gate name=".2" symbol="CONX1" x="2.54" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name=".3" symbol="CONX1" x="2.54" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name=".4" symbol="CONX1" x="2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name=".5" symbol="CONX1" x="2.54" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name=".6" symbol="CONX1" x="2.54" y="-5.08" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="_XH_SMT" package="JSTXH6_SMT">
+<connects>
+<connect gate=".1" pin="P" pad="1"/>
+<connect gate=".2" pin="P" pad="2"/>
+<connect gate=".3" pin="P" pad="3"/>
+<connect gate=".4" pin="P" pad="4"/>
+<connect gate=".5" pin="P" pad="5"/>
+<connect gate=".6" pin="P" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_7PIN" prefix="X">
+<gates>
+<gate name=".1" symbol="CONX1" x="2.54" y="7.62" addlevel="always" swaplevel="1"/>
+<gate name=".2" symbol="CONX1" x="2.54" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name=".3" symbol="CONX1" x="2.54" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name=".4" symbol="CONX1" x="2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name=".5" symbol="CONX1" x="2.54" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name=".6" symbol="CONX1" x="2.54" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name=".7" symbol="CONX1" x="2.54" y="-7.62" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="_XH_SMT" package="JSTXH7_SMT">
+<connects>
+<connect gate=".1" pin="P" pad="1"/>
+<connect gate=".2" pin="P" pad="2"/>
+<connect gate=".3" pin="P" pad="3"/>
+<connect gate=".4" pin="P" pad="4"/>
+<connect gate=".5" pin="P" pad="5"/>
+<connect gate=".6" pin="P" pad="6"/>
+<connect gate=".7" pin="P" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_8PIN" prefix="X">
+<gates>
+<gate name=".1" symbol="CONX1" x="2.54" y="10.16" addlevel="always" swaplevel="1"/>
+<gate name=".2" symbol="CONX1" x="2.54" y="7.62" addlevel="always" swaplevel="1"/>
+<gate name=".3" symbol="CONX1" x="2.54" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name=".4" symbol="CONX1" x="2.54" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name=".5" symbol="CONX1" x="2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name=".6" symbol="CONX1" x="2.54" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name=".7" symbol="CONX1" x="2.54" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name=".8" symbol="CONX1" x="2.54" y="-7.62" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="_XH_SMT" package="JSTXH8_SMT">
+<connects>
+<connect gate=".1" pin="P" pad="1"/>
+<connect gate=".2" pin="P" pad="2"/>
+<connect gate=".3" pin="P" pad="3"/>
+<connect gate=".4" pin="P" pad="4"/>
+<connect gate=".5" pin="P" pad="5"/>
+<connect gate=".6" pin="P" pad="6"/>
+<connect gate=".7" pin="P" pad="7"/>
+<connect gate=".8" pin="P" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
