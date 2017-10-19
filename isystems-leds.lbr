@@ -1212,7 +1212,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SMTW?m"&gt;http:/
 </device>
 </devices>
 </deviceset>
-<deviceset name="WL-SBTW" prefix="P" uservalue="yes">
+<deviceset name="WL-SBTW" prefix="D" uservalue="yes">
 <description>&lt;b&gt;SMD bi-color TOP LED
 &lt;br&gt;
 &lt;br&gt;
@@ -1305,7 +1305,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SBTW?m"&gt;http:/
 </device>
 </devices>
 </deviceset>
-<deviceset name="WL-SFTW" prefix="P">
+<deviceset name="WL-SFTW" prefix="D">
 <description>&lt;b&gt;SMD full-color TOP LED
 &lt;br&gt;
 &lt;br&gt;
