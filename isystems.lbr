@@ -21372,24 +21372,21 @@ Atmel AVR MCU with CAN
 </deviceset>
 <deviceset name="CAP_ELECTROLYTIC" prefix="C" uservalue="yes">
 <description>&lt;p&gt;&lt;b&gt;Electrolytic Capacitors&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SMT&lt;/b&gt;&lt;hr/&gt;&lt;/p&gt;
-&lt;b&gt;PANASONIC_C&lt;/b&gt; - Size C Panasonic Electrolytic Aluminum Capacitor
-&lt;ul&gt;
-&lt;li&gt;47µF 16V 20% Electrolytic Capacitor [Digikey: PCE3890TR-ND]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;b&gt;PANASONIC_D&lt;/b&gt; - Size D Panasonic Electrolytic Aluminum Capacitor
-&lt;ul&gt;
-&lt;li&gt;100µF 25V 20% Electrolytic Capacitor [Digikey: PCE3898TR-ND]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;b&gt;PTH&lt;/b&gt;&lt;hr/&gt;&lt;/p&gt;
-&lt;b&gt;3.5 mm grid, 8 mm diameter&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;b&gt;3.5 mm grid, 10 mm diameter&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;...&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;b&gt;SMT&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Panasonic Sizes:
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Size Code&lt;/th&gt;&lt;th&gt;ØD&lt;/th&gt;&lt;th&gt;□W&lt;/th&gt;&lt;th&gt;L&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;A&lt;/td&gt;&lt;td&gt;3.0mm&lt;/td&gt;&lt;td&gt;3.2mm&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;B&lt;/td&gt;&lt;td&gt;4.0mm&lt;/td&gt;&lt;td&gt;4.3mm&lt;/td&gt;&lt;td&gt;5.4mm&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;C&lt;/td&gt;&lt;td&gt;5.0mm&lt;/td&gt;&lt;td&gt;5.3mm&lt;/td&gt;&lt;td&gt;5.4mm&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;D&lt;/td&gt;&lt;td&gt;6.3mm&lt;/td&gt;&lt;td&gt;6.6mm&lt;/td&gt;&lt;td&gt;5.4mm&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;E&lt;/td&gt;&lt;td&gt;8.0mm&lt;/td&gt;&lt;td&gt;8.3mm&lt;/td&gt;&lt;td&gt;6.2mm&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;F&lt;/td&gt;&lt;td&gt;8.0mm&lt;/td&gt;&lt;td&gt;8.3mm&lt;/td&gt;&lt;td&gt;10.2mm&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;G&lt;/td&gt;&lt;td&gt;10.0mm&lt;/td&gt;&lt;td&gt;10.3mm&lt;/td&gt;&lt;td&gt;10.2mm&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;b&gt;THT&lt;/b&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR_POL" x="0" y="-2.54"/>
 </gates>
