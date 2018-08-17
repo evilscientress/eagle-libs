@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h2&gt;iSystems Eagle Library&lt;/h2&gt;
+&lt;h3&gt;Sensors&lt;/h3&gt;
+This library contains components used in our designs &amp; products. It's provided as it is without any warrenty what so ever. &lt;br/&gt;
+A few parts in the library where never used in products or prototypes and are untested&lt;br&gt;
+&lt;b&gt;Use at your own risk &lt;/b&gt;&lt;br/&gt;
+&lt;br/&gt;
+&lt;b&gt;License:&lt;/b&gt; Creative Commons 2.0 AT-SA&lt;br/&gt;
+fork me on github: &lt;a href="https://github.com/masterbase/eagle-libs"&gt;https://github.com/masterbase/eagle-libs&lt;/a&gt;</description>
+<packages>
+<package name="BME280">
+<description>Bosch BME280</description>
+<smd name="1" x="1.025" y="0.975" dx="0.5" dy="0.35" layer="1"/>
+<smd name="2" x="1.025" y="0.325" dx="0.5" dy="0.35" layer="1"/>
+<smd name="3" x="1.025" y="-0.325" dx="0.5" dy="0.35" layer="1"/>
+<smd name="4" x="1.025" y="-0.975" dx="0.5" dy="0.35" layer="1"/>
+<smd name="5" x="-1.025" y="-0.975" dx="0.5" dy="0.35" layer="1"/>
+<smd name="6" x="-1.025" y="-0.325" dx="0.5" dy="0.35" layer="1"/>
+<smd name="7" x="-1.025" y="0.325" dx="0.5" dy="0.35" layer="1"/>
+<smd name="8" x="-1.025" y="0.975" dx="0.5" dy="0.35" layer="1"/>
+<wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.1" layer="49"/>
+<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.1" layer="49"/>
+<wire x1="1.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.1" layer="49"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.1" layer="49"/>
+<wire x1="1.15" y1="0.85" x2="1.15" y2="-0.85" width="0.05" layer="49"/>
+<wire x1="1.15" y1="-0.85" x2="0.85" y2="-1.15" width="0.05" layer="49" curve="-90"/>
+<wire x1="0.85" y1="-1.15" x2="-0.85" y2="-1.15" width="0.05" layer="49"/>
+<wire x1="-0.85" y1="-1.15" x2="-1.15" y2="-0.85" width="0.05" layer="49" curve="-90"/>
+<wire x1="-1.15" y1="-0.85" x2="-1.15" y2="0.85" width="0.05" layer="49"/>
+<wire x1="-1.15" y1="0.85" x2="-0.85" y2="1.15" width="0.05" layer="49" curve="-90"/>
+<wire x1="-0.85" y1="1.15" x2="0.85" y2="1.15" width="0.05" layer="49"/>
+<wire x1="0.85" y1="1.15" x2="1.15" y2="0.85" width="0.05" layer="49" curve="-90"/>
+<circle x="0.012" y="-0.625" radius="0.15" width="0.05" layer="49"/>
+<circle x="1.6" y="0.975" radius="0.15" width="0" layer="21"/>
+<text x="-1.27" y="1.905" size="0.5" layer="25" font="vector" ratio="15" align="top-left">&gt;NAME</text>
+<text x="-0.3" y="0" size="0.3" layer="27" font="vector" ratio="15" rot="R90" align="bottom-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="BME280">
+<description>Bosch BME280</description>
+<pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="CSB" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="SDI" x="-15.24" y="2.54" length="middle"/>
+<pin name="SCK" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="SDO" x="-15.24" y="0" length="middle"/>
+<pin name="VDD" x="15.24" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDIO" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="10.16" size="1.27" layer="96" align="top-left">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BME280" prefix="Q">
+<description>&lt;h3&gt;Bosh BME280&lt;/h3&gt;
+Combined humidity and pressure sensor
+
+&lt;h4&gt;Key Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Package: 2.5 mm x 2.5 mm x 0.93 mm metal lid LGA&lt;/li&gt;
+&lt;li&gt;Digital Interace: I²C (up to 3.4MHz) and SPI (3 and 4 wire, up to 10 MHz)&lt;/li&gt;
+&lt;li&gt;V&lt;sub&gt;DD&lt;/sub&gt; main supply voltage range: 1.71V to 3.6V&lt;/li&gt;
+&lt;li&gt;V&lt;sub&gt;DDIO&lt;/sub&gt; interface supply voltage: 1.2V to 3.6V&lt;/li&gt;
+&lt;li&gt;Current consumption:
+    &lt;ul&gt;
+        &lt;li&gt;1.8µA @ 1 Hz humidity and temperature&lt;/li&gt;
+        &lt;li&gt;2.8µA @ 1 Hz pressure and temperature&lt;/li&gt;
+        &lt;li&gt;3.6µA @ 1 Hz humidity, pressure and temperature&lt;/li&gt;
+        &lt;li&gt;0.1µA in sleep mode&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Operating range: -40…+85°C, 0…100% rel. humidity, 300…1100 hPa&lt;/li&gt;
+&lt;li&gt;Humidity sensor and pressure sensor can be independently enabled / disabled&lt;/li&gt;
+&lt;li&gt;Register and performance compatible to Bosch Sensortec BMP280 digital pressure sensor&lt;/li&gt;
+&lt;li&gt;RopHS compliant, halogen-free, MSL1&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="BME280" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BME280">
+<connects>
+<connect gate="G$1" pin="CSB" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1 7"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="SDI" pad="3"/>
+<connect gate="G$1" pin="SDO" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
