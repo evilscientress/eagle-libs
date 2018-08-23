@@ -105,6 +105,47 @@ fork me on github: &lt;a href="https://github.com/masterbase/eagle-libs"&gt;http
 <text x="-1.27" y="1.905" size="0.5" layer="25" font="vector" ratio="15" align="top-left">&gt;NAME</text>
 <text x="-0.3" y="0" size="0.3" layer="27" font="vector" ratio="15" rot="R90" align="bottom-center">&gt;VALUE</text>
 </package>
+<package name="SHT3X-DIS">
+<description>Sensirion SHT3X-DIS 8pin DFN</description>
+<smd name="PAD" x="0" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<polygon width="0" layer="1">
+<vertex x="-0.3" y="0.85"/>
+<vertex x="0.5" y="0.85"/>
+<vertex x="0.5" y="-0.85"/>
+<vertex x="-0.5" y="-0.85"/>
+<vertex x="-0.5" y="0.65"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.3" y="0.95"/>
+<vertex x="0.6" y="0.95"/>
+<vertex x="0.6" y="-0.95"/>
+<vertex x="-0.6" y="-0.95"/>
+<vertex x="-0.6" y="0.65"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.3" y="0.8"/>
+<vertex x="0.45" y="0.8"/>
+<vertex x="0.45" y="-0.8"/>
+<vertex x="-0.45" y="-0.8"/>
+<vertex x="-0.45" y="0.65"/>
+</polygon>
+<smd name="1" x="-1.175" y="0.75" dx="0.55" dy="0.25" layer="1"/>
+<smd name="2" x="-1.175" y="0.25" dx="0.55" dy="0.25" layer="1"/>
+<smd name="3" x="-1.175" y="-0.25" dx="0.55" dy="0.25" layer="1"/>
+<smd name="4" x="-1.175" y="-0.75" dx="0.55" dy="0.25" layer="1"/>
+<smd name="5" x="1.175" y="-0.75" dx="0.55" dy="0.25" layer="1"/>
+<smd name="6" x="1.175" y="-0.25" dx="0.55" dy="0.25" layer="1"/>
+<smd name="7" x="1.175" y="0.25" dx="0.55" dy="0.25" layer="1"/>
+<smd name="8" x="1.175" y="0.75" dx="0.55" dy="0.25" layer="1"/>
+<wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.1" layer="51"/>
+<circle x="-1.5" y="1.5" radius="0.25" width="0" layer="21"/>
+<text x="0" y="1.5" size="0.5" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.5" size="0.4" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
+<circle x="0" y="0" radius="0.75" width="0.1" layer="49"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BME280">
@@ -122,6 +163,24 @@ fork me on github: &lt;a href="https://github.com/masterbase/eagle-libs"&gt;http
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <text x="-10.16" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 <text x="-10.16" y="10.16" size="1.27" layer="96" align="top-left">&gt;NAME</text>
+</symbol>
+<symbol name="SHT3X-DIS">
+<description>Sensirion SHT3X-DIS</description>
+<pin name="SDA" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="SCL" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="R" x="15.24" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="VSS" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
+<pin name="VDD" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="!RESET" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="ADDR" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="PAD" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
+<pin name="ALARM" x="15.24" y="-5.08" length="middle" direction="out" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.6764" layer="95" ratio="15" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.6764" layer="96" ratio="15">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -164,6 +223,75 @@ Combined humidity and pressure sensor
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SHT3" prefix="Q">
+<description>&lt;h3&gt;Sensirion SHT3x-DIS&lt;/h3&gt;
+Humidity and Temperature Sensor
+
+&lt;ul&gt;
+  &lt;li&gt;Fully calibrated, linearized, and temperature compensated digital output&lt;/li&gt;
+  &lt;li&gt;Wide supply voltage range, from 2.15 V to 5.5 V&lt;li&gt;
+  &lt;li&gt;I2C Interface with communication speeds up to 1MHz and two user selectable addresses&lt;li&gt;
+  &lt;li&gt;Typical accuracy of ± 1.5 %RH and ± 0.1 °C for SHT35&lt;li&gt;
+  &lt;li&gt;Very fast start-up and measurement time&lt;li&gt;
+  &lt;li&gt;Tiny 8-Pin DFN package&lt;li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SHT3X-DIS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-B" package="SHT3X-DIS">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="6"/>
+<connect gate="G$1" pin="ADDR" pad="2"/>
+<connect gate="G$1" pin="ALARM" pad="3"/>
+<connect gate="G$1" pin="PAD" pad="PAD"/>
+<connect gate="G$1" pin="R" pad="7"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="8"/>
+</connects>
+<technologies>
+<technology name="0-DIS"/>
+<technology name="1-DIS"/>
+<technology name="5-DIS"/>
+</technologies>
+</device>
+<device name="-F" package="SHT3X-DIS">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="6"/>
+<connect gate="G$1" pin="ADDR" pad="2"/>
+<connect gate="G$1" pin="ALARM" pad="3"/>
+<connect gate="G$1" pin="PAD" pad="PAD"/>
+<connect gate="G$1" pin="R" pad="7"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="8"/>
+</connects>
+<technologies>
+<technology name="1-DIS"/>
+<technology name="5-DIS"/>
+</technologies>
+</device>
+<device name="-P" package="SHT3X-DIS">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="6"/>
+<connect gate="G$1" pin="ADDR" pad="2"/>
+<connect gate="G$1" pin="ALARM" pad="3"/>
+<connect gate="G$1" pin="PAD" pad="PAD"/>
+<connect gate="G$1" pin="R" pad="7"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="8"/>
+</connects>
+<technologies>
+<technology name="1-DIS"/>
 </technologies>
 </device>
 </devices>
