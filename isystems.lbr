@@ -24998,6 +24998,30 @@ Precision Micropower, Low Dropout Voltage References
 </device>
 </devices>
 </deviceset>
+<deviceset name="MIC5504-" prefix="U">
+<description>&lt;strong&gt;Microchip 300 mA Single Output LDO&lt;/strong&gt;</description>
+<gates>
+<gate name="G$1" symbol="LDO_CE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="YMT" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="CE" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="1.2"/>
+<technology name="1.8"/>
+<technology name="2.5"/>
+<technology name="2.8"/>
+<technology name="3.0"/>
+<technology name="3.3"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
