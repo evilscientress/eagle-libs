@@ -24964,6 +24964,40 @@ Precision Micropower, Low Dropout Voltage References
 </device>
 </devices>
 </deviceset>
+<deviceset name="MIC94310" prefix="U">
+<description>&lt;b&gt;Microchip MIC94310 200mA LDO&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="LDO_CE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="CE" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="-4YM5">
+<attribute name="MARKING" value="V31"/>
+<attribute name="VOUT" value="1.2V"/>
+</technology>
+<technology name="-GYM5">
+<attribute name="MARKING" value="W31"/>
+<attribute name="VOUT" value="1.8V"/>
+</technology>
+<technology name="-MYM5">
+<attribute name="MARKING" value="Z31"/>
+<attribute name="VOUT" value="2.8V"/>
+</technology>
+<technology name="-SYM5">
+<attribute name="MARKING" value="X31"/>
+<attribute name="VOUT" value="3.3V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
