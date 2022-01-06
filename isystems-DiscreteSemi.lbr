@@ -158,8 +158,8 @@ This library contains components used in our designs &amp; products. It's provid
 A few parts in the library where never used in products or prototypes and are untested&lt;br&gt;
 &lt;b&gt;Use at your own risk &lt;/b&gt;&lt;br/&gt;
 &lt;br/&gt;
-&lt;b&gt;License:&lt;/b&gt; Creative Commons 2.0 AT-SA&lt;br/&gt;
-fork me on github: &lt;a href="https://github.com/masterbase/eagle-libs"&gt;https://github.com/masterbase/eagle-libs&lt;/a&gt;</description>
+&lt;b&gt;License:&lt;/b&gt; &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;&lt;br/&gt;
+fork me on github: &lt;a href="https://github.com/evilscientress/eagle-libs"&gt;https://github.com/evilscientress/eagle-libs&lt;/a&gt;</description>
 <packages>
 <package name="SMB">
 <description>&lt;b&gt;SMALL OUTLINE DIODE&lt;/b&gt;</description>

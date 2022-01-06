@@ -139,6 +139,15 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>&lt;h2&gt;iSystems Eagle Library&lt;/h2&gt;
+&lt;strong&gt;Programming Headers&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+This library contains components used in our designs &amp; products. It's provided as it is without any warrenty what so ever. &lt;br/&gt;
+A few parts in the library where never used in products or prototypes and are untested&lt;br&gt;
+&lt;b&gt;Use at your own risk &lt;/b&gt;&lt;br/&gt;
+&lt;br/&gt;
+&lt;b&gt;License:&lt;/b&gt; &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;&lt;br/&gt;
+fork me on github: &lt;a href="https://github.com/evilscientress/eagle-libs"&gt;https://github.com/evilscientress/eagle-libs&lt;/a&gt;</description>
 <packages>
 <package name="2X3">
 <description>Pin Header 100mil 2x3</description>
